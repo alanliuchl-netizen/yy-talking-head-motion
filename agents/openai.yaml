@@ -1,4 +1,4 @@
 interface:
   display_name: "YY 口播动效包装"
-  short_description: "将已剪齐口播包装为黑橙图解、金框知识窗、纸墨讲解或 PPT，保留原声与字幕时码。"
-  default_prompt: "使用 $yy-talking-head-motion，按提供的画幅和视觉方案包装已剪齐口播与校对字幕，保留原声、字幕分段和时码，输出到新的文件名。"
+  short_description: "将拍摄原片内容精剪、校对字幕并包装成片，兼容已剪口播的八种本地视觉预设。"
+  default_prompt: "使用 $yy-talking-head-motion，从提供的拍摄原片完成内容精剪、字幕、动效包装和成片验收；按有效内容确定节奏与长度，保留事实和原意，输出新成片、字幕、可编辑工程及剪辑记录。"

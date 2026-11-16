@@ -9,7 +9,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 FILES = ['SKILL.md', 'README.md', 'LICENSE', 'THIRD_PARTY_NOTICES.md',
-         'package.json', 'package-lock.json', '.gitignore', '.npmrc']
+         'package.json', 'package-lock.json', 'requirements-asr.txt', '.gitignore', '.npmrc']
 DIRECTORIES = ['scripts', 'references', 'assets', 'examples/demo', 'tests', 'agents']
 
 

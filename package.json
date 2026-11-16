@@ -1,6 +1,6 @@
 {
   "name": "yy-talking-head-motion",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "description": "A local Agent Skill for faithful talking-head motion packaging",
   "license": "MIT",

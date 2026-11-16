@@ -1,6 +1,8 @@
 # project.json 格式
 
-输入为 UTF-8 JSON，`version` 固定为 `1`，v0.2.0 保持旧配置兼容。可公开的六版式配置见 `examples/demo/project.json`；运行 `scripts/make_demo.py --output work/demo` 后，`work/demo/project.json` 与相邻媒体可直接构建。
+输入为 UTF-8 JSON，`version` 固定为 `1`，v0.3.0 保持旧配置兼容。可公开的六版式配置见 `examples/demo/project.json`；运行 `scripts/make_demo.py --output work/demo` 后，`work/demo/project.json` 与相邻媒体可直接构建。
+
+原片内容精剪由 `edit.py` 衔接生成媒体、字幕与此结构，用户无需编写 JSON。生成初稿带 `editing_stage: needs_motion_planning`，Agent 完成实际场景编排并审校后改为 `motion_plan_reviewed`；未完成初稿不能渲染。旧的已剪齐配置没有该字段时保持兼容。本页时码均属于最终剪辑时间轴。
 
 ## 最小结构
 

@@ -1,4 +1,5 @@
 node_modules/
+.venv-asr/
 .npm-cache/
 work/
 builds/

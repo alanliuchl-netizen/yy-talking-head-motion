@@ -23,6 +23,12 @@ def project():
 
 
 class InputBoundaries(unittest.TestCase):
+    def test_raw_edit_draft_requires_actual_scene_planning(self):
+        data = project(); data['editing_stage'] = 'needs_motion_planning'
+        with self.assertRaises(ValueError): builder.validate(data)
+        data['editing_stage'] = 'motion_plan_reviewed'
+        builder.validate(data)
+
     def test_unknown_style_rejected(self):
         data = project()
         data['style'] = 'not-installed'

@@ -1,0 +1,4 @@
+# Optional local speech recognition. Model weights are downloaded separately.
+# Use a virtual environment; the packaging/rendering tools do not need this.
+faster-whisper==1.2.1
+numpy>=1.24,<3

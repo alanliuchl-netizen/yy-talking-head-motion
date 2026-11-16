@@ -40,6 +40,8 @@ def marked(text, words, tag='span', cls='accent', once=False):
 def validate(data):
     if not isinstance(data, dict):
         raise ValueError('Project must be a JSON object')
+    if data.get('editing_stage') not in (None, 'motion_plan_reviewed'):
+        raise ValueError('Agent must finish actual scene planning and review before rendering the edited project')
     resolve_style(data.get('style', 'black-orange'))
     def number(value, label):
         if type(value) not in (int, float) or not math.isfinite(value):

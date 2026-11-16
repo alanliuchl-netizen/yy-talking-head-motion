@@ -32,7 +32,7 @@ python3 scripts/render.py --input work/my-video/project.json --style green-gold-
 - `identity-blue` 可用 `identity.name`、`identity.role`、`identity.lines`；每个字段均可省略。未提供非空 identity 时使用 `header/header_note`。容量与示例见 [项目格式](project-format.md)。
 - 纸墨/PPT 可显示 `scene.source_note`，只填写用户实际提供的来源。没有来源则不显示，不编作者、刊物、引文、数字或证据。
 
-纸墨不显示人物，PPT 保留左下人物小窗；统一输入均要求已剪齐的 `presenter`、`voice`，`audio_copy` 可选。所有 preset 共用六种 `layout`、原字幕分段与时码、原声音轨保留、相对路径保护、禁止覆盖和全片技术读回。
+纸墨不显示人物，PPT 保留左下人物小窗；统一输入均要求已剪齐的 `presenter`、`voice`，`audio_copy` 可选。所有 preset 共用六种 `layout`、剪后字幕分段与时码、剪后声音母版保留、相对路径保护、禁止覆盖和全片技术读回。原片模式先完成 [内容精剪](editing.md)，仅包装模式直接使用用户已确定的时间轴。
 
 ## 对照验证
 
