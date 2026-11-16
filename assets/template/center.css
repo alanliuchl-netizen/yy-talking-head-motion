@@ -1,0 +1,7 @@
+/* Historical centered presenter variant; landscape remains unchanged. */
+.portrait .scene-content{padding-bottom:930px}
+.portrait #presenter-frame{left:292px;top:1036px;width:468px;height:568px;border-radius:30px}
+.portrait #presenter{object-position:center center}
+.portrait #divider{top:1620px}
+.portrait #captions{top:1640px;height:140px}
+.portrait .caption{height:140px}

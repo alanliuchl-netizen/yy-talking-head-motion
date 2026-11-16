@@ -1,0 +1,22 @@
+{
+  "name": "yy-talking-head-motion",
+  "version": "0.2.0",
+  "private": true,
+  "description": "A local Agent Skill for faithful talking-head motion packaging",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "python3 -m unittest discover -s tests -v",
+    "doctor": "python3 scripts/doctor.py",
+    "demo": "python3 scripts/make_demo.py --output work/demo",
+    "hyperframes": "hyperframes"
+  },
+  "dependencies": {
+    "@fontsource/noto-sans-sc": "5.3.1",
+    "@fontsource/noto-serif-sc": "5.3.1",
+    "gsap": "3.14.2",
+    "hyperframes": "0.8.149"
+  }
+}

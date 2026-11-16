@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "title": "把内容讲清楚",
+  "header": "口播动效 · 六种版式",
+  "header_note": "公开技术示例 · 非真人口播",
+  "duration": 18,
+  "fps": 30,
+  "identity": {"name": "演示讲述者", "role": "匿名技术示例", "lines": ["内容编排", "字幕与原声对齐"]},
+  "media": {"presenter": "assets/presenter.mp4", "voice": "assets/voice.m4a", "audio_copy": "assets/voice.m4a"},
+  "emphasis_words": ["图解", "对照", "流程", "要点", "变化", "结论"],
+  "captions": [
+    {"start": 0, "end": 3, "text": "图解帮助理解结构"},
+    {"start": 3, "end": 6, "text": "对照帮助看清差别"},
+    {"start": 6, "end": 9, "text": "流程帮助理清顺序"},
+    {"start": 9, "end": 12, "text": "要点帮助记住重点"},
+    {"start": 12, "end": 15, "text": "变化需要前后比较"},
+    {"start": 15, "end": 18, "text": "结论回到核心信息"}
+  ],
+  "scenes": [
+    {"id": "structure", "start": 0, "eyebrow": "01 · 图解", "title": "让结构变得可见", "layout": "diagram", "items": [
+      {"id": "whole", "at": 0.5, "title": "整体", "diagram": "cube"},
+      {"id": "detail", "at": 1.4, "title": "局部", "diagram": "plane"}]},
+    {"id": "comparison", "start": 3, "eyebrow": "02 · 对照", "title": "把差别放在一起", "layout": "compare", "items": [
+      {"id": "before", "at": 3.5, "overline": "方式一", "title": "只有文字", "body": "信息不易定位"},
+      {"id": "after", "at": 4.4, "overline": "方式二", "title": "加入图解", "body": "结构更加清楚", "emphasis": true}]},
+    {"id": "process", "start": 6, "eyebrow": "03 · 流程", "title": "先确认，再制作", "layout": "flow", "items": [
+      {"id": "input", "at": 6.5, "title": "确认内容"},
+      {"id": "output", "at": 7.5, "title": "制作图解", "emphasis": true}],
+      "connector": {"id": "next-step", "at": 7.0, "text": "→", "label": "然后"}},
+    {"id": "keypoints", "start": 9, "eyebrow": "04 · 要点", "title": "每页只讲清一件事", "layout": "cards", "items": [
+      {"id": "accurate", "at": 9.5, "title": "准确", "body": "保留原意"},
+      {"id": "readable", "at": 10.0, "title": "易读", "body": "留足空间"},
+      {"id": "aligned", "at": 10.5, "title": "同步", "body": "对应原声"},
+      {"id": "reviewed", "at": 11.0, "title": "复核", "body": "查看成片"}]},
+    {"id": "change", "start": 12, "eyebrow": "05 · 变化", "title": "先有内容，再做包装", "layout": "timeline", "items": [
+      {"id": "phase-one", "at": 12.5, "overline": "之前", "title": "校对字幕", "body": "确认文字和时码"},
+      {"id": "phase-two", "at": 13.5, "overline": "之后", "title": "添加图解", "body": "保留声音和节奏", "emphasis": true}]},
+    {"id": "conclusion", "start": 15, "eyebrow": "06 · 结论", "title": "包装服务于表达", "layout": "statement", "items": [
+      {"id": "main-message", "at": 15.7, "title": "讲清楚"}]}
+  ]
+}

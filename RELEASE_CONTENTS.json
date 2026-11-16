@@ -1,0 +1,195 @@
+{
+  "version": "0.2.0",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 108,
+      "sha256": "022cd18d90ea0e6237a3dc66d810e50944e4800441221f5feecae21930656824"
+    },
+    {
+      "path": ".npmrc",
+      "bytes": 37,
+      "sha256": "3a951f66e7e0f3e2dd1832473a871357c4a507b51100636b73bcf6ff0dd78b6c"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1092,
+      "sha256": "e5ec7469038777fd8069c8bacb7b42d7e119c336f97eb2137b752f155d57198c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9657,
+      "sha256": "9aa78a38e619e0ce88aca0644b7c3a2d9cd06861688a5b3076a08b4d2e75210f"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 3393,
+      "sha256": "a6c08a6965b16156228ff93ae93250ccd89cfee9d891f8383c00ddb0b5e678d7"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 2192,
+      "sha256": "801ea190709833a5db76cd9983a278b9641209ef1c4d6fa52f26bbf9020035d1"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 379,
+      "sha256": "c607bb717a75f80991c86c3e413d7756eacd781e8a36b12083b3e614a44734b4"
+    },
+    {
+      "path": "assets/previews/black-orange-center-landscape.jpg",
+      "bytes": 39161,
+      "sha256": "fb893af2dec71626b7d17eff4c318ba8225fbf27ba29dfbe6d301feb220af39b"
+    },
+    {
+      "path": "assets/previews/black-orange-center-portrait.jpg",
+      "bytes": 17194,
+      "sha256": "c41275e4d2db545221d61221bb760a04faed2adc23ed7964a0d623cd960a0a8a"
+    },
+    {
+      "path": "assets/previews/black-orange-landscape.jpg",
+      "bytes": 39161,
+      "sha256": "fb893af2dec71626b7d17eff4c318ba8225fbf27ba29dfbe6d301feb220af39b"
+    },
+    {
+      "path": "assets/previews/black-orange-portrait.jpg",
+      "bytes": 12349,
+      "sha256": "e52312fcef1a31ed77c076e4f8c826cb7bd95c74a53e130cd7042f07bd8b9e73"
+    },
+    {
+      "path": "assets/previews/green-gold-portrait-portrait.jpg",
+      "bytes": 11817,
+      "sha256": "0c1d6a97628bd16fbd15ad3e78e553f47aaffdc2b9d15cd30fe244233825e824"
+    },
+    {
+      "path": "assets/previews/green-gold-portrait.jpg",
+      "bytes": 11815,
+      "sha256": "7b7fd4458833e29ff58b7b32f94fc09896cbd81684427049156117aadbdbfe09"
+    },
+    {
+      "path": "assets/previews/identity-blue-portrait.jpg",
+      "bytes": 14899,
+      "sha256": "6490cb88ffed0bee88120945786dc323b433bf6b33aca3bc8f4168ea1a542e72"
+    },
+    {
+      "path": "assets/previews/paper-ink-landscape.jpg",
+      "bytes": 24674,
+      "sha256": "c4e1752eb93e240ac3e9056d6d6248a2e7d4a9d7e159fb9b902a99d4dc3769b3"
+    },
+    {
+      "path": "assets/previews/ppt-bright-landscape.jpg",
+      "bytes": 37893,
+      "sha256": "6fc69e78414cb6ced4064776f2fcf153402bb487f2bee76e1baf66273c97aa78"
+    },
+    {
+      "path": "assets/previews/ppt-calm-landscape.jpg",
+      "bytes": 37529,
+      "sha256": "17e9e045b213c36275d1a020b9f819bfc2ca1405a0c833aa3eb2482bacdf6e80"
+    },
+    {
+      "path": "assets/template/center.css",
+      "bytes": 376,
+      "sha256": "bb803d60418fb9bd08f05c0b8ea6be64131e0d8c24850ed33cfb4bd07f1b7c64"
+    },
+    {
+      "path": "assets/template/style.css",
+      "bytes": 9463,
+      "sha256": "0138d77ab2d374151560083c0ebcb79755a64a163adf4713621b9f5060dba5b7"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "bytes": 5307,
+      "sha256": "bdd7a830b24c4511b425ed294dfebe5ea10459065544ac529d464be53bd96383"
+    },
+    {
+      "path": "examples/demo/project.json",
+      "bytes": 2981,
+      "sha256": "d1b18f143ce2fc6392406285fb5e7367ce0450f72ee26d1276f5e2518cd52a2e"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 63469,
+      "sha256": "0088da7156eda60bf05cd504ad671111b94494190d9d4cad99d70d395d9ffcc2"
+    },
+    {
+      "path": "package.json",
+      "bytes": 596,
+      "sha256": "7bdadead8f5a1fc7bcb3fa13f5278c51dfa1a5f0de6cce4c31b10ab6f2a1ce05"
+    },
+    {
+      "path": "references/design.md",
+      "bytes": 3654,
+      "sha256": "4647ec72071011f36190585d229b49e79218b4fda2601b0f078a10aaeab4cb3a"
+    },
+    {
+      "path": "references/project-format.md",
+      "bytes": 7102,
+      "sha256": "3c56127673180e77d8aba76f7ac8661cd9d1a5b7144bfd8a28aa209cb563c669"
+    },
+    {
+      "path": "references/styles.md",
+      "bytes": 3665,
+      "sha256": "a9037b20f643801c05e18705c08616b5f4ff569363adab43cde71e64a8f5151d"
+    },
+    {
+      "path": "references/workflow.md",
+      "bytes": 4610,
+      "sha256": "5db59036adeeb4fc743c1962946211398e1dd312a141eb87dec36481ce5f0103"
+    },
+    {
+      "path": "scripts/build.py",
+      "bytes": 23383,
+      "sha256": "42d2962362a19c5635c7e9f1720fe79a60d9d00f9179e9e35420920e4279b516"
+    },
+    {
+      "path": "scripts/doctor.py",
+      "bytes": 1869,
+      "sha256": "8da4fc13eddd64cb9dc6c51df321c40c2c0fbe7596612031c931ecb2d687e128"
+    },
+    {
+      "path": "scripts/make_demo.py",
+      "bytes": 2142,
+      "sha256": "b8d474efe9cb4c66ac759cf0a66fb32098f6c762e41aeaa0e207bbc1359c9a8a"
+    },
+    {
+      "path": "scripts/make_release.py",
+      "bytes": 2468,
+      "sha256": "8f5c15166420666fe95c9f19ce4157c2b44ae0e4805a4218facab5393ee2b46a"
+    },
+    {
+      "path": "scripts/render.py",
+      "bytes": 4576,
+      "sha256": "8fb5616e747cad0a2fb2beb1cf968698e9591cd576494eb1f46c7ea29d3a48f1"
+    },
+    {
+      "path": "scripts/style_editorial.py",
+      "bytes": 20227,
+      "sha256": "106bda0f35711e7273aafb89c414b704f97eed28cb8a50c12868979ea1c061f1"
+    },
+    {
+      "path": "scripts/style_portrait.py",
+      "bytes": 17942,
+      "sha256": "bba65d6ea8792a3384219f05ee668557e8ccba7c1102a2b0adafbf5b2200d88f"
+    },
+    {
+      "path": "scripts/styles.py",
+      "bytes": 1447,
+      "sha256": "301ed1bd2575edb5812cc5aa03f488590f4bdfdfee5880671a6b7349ab21e833"
+    },
+    {
+      "path": "scripts/verify.py",
+      "bytes": 3826,
+      "sha256": "fe066f578a56e140aa5119d8b63644774b04461e3bee6375c2a21a6998504f4c"
+    },
+    {
+      "path": "scripts/verify_styles.py",
+      "bytes": 6171,
+      "sha256": "570dba575ee886a654a0862ec2605426856b92e4608b60c83692eb99a776738f"
+    },
+    {
+      "path": "tests/test_build.py",
+      "bytes": 6182,
+      "sha256": "d7d857f7bd06bcf3fd84a609a02621dde47cce30f3e7a46394a5c9ff561ba9e2"
+    }
+  ]
+}
